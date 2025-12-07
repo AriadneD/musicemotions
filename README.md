@@ -25,18 +25,23 @@ Analyze the emotional DNA of any song on YouTube. Get a 6-dimensional emotional 
 
 ### 1. Impact — Long-term Potential
 
-**What is the project's long-term potential for success, growth and impact?**
+Muse doesn’t just fix music discovery—it fills a gap in how we understand ourselves through what we listen to. Streaming platforms organize songs by genre and vibe, but they miss the emotional context of listening: the way we use music for self-discovery, relationship building, emotional processing, conflict resolution, and getting into deep-focus flow.
 
-Muse addresses a fundamental gap in how we discover and organize music. While streaming platforms offer genre-based playlists, they don't capture the *emotional context* of listening. Muse's emotional profiling can power:
+Muse’s emotional profiling can power:
 
-- **Smart playlist curation**: "Find me songs for a rainy afternoon drive" becomes precise
-- **Music therapy applications**: Match songs to therapeutic goals with emotional precision
-- **Content creator tools**: Help filmmakers/podcasters find the perfect emotional bed track
-- **Personal music journaling**: Track how your emotional music preferences evolve over time
+Smart playlist curation – “Find me songs for a rainy afternoon drive with my best friend” or “give me calm-but-confident pre-presentation hype music.”
 
-**Does it fit into the problem statement?**
+Music therapy & emotional processing – Curate tracks that support specific goals like grounding anxiety, processing grief, or boosting motivation.
 
-Yes — Muse exemplifies multi-modality by synthesizing:
+Relationship & social experiences – Generate shared emotional playlists (“our songs”) that reflect how two people feel, not just what they like on paper.
+
+Conflict resolution & communication – Let people “say how they feel” through emotionally tagged tracks, creating shared understanding when words are hard.
+
+Productivity & habit-building – Build emotion-aware focus, study, or workout playlists that adapt as your energy and mood shift.
+
+Personal music journaling – Track how your emotional music patterns evolve over time and surface insights about your inner life, not just your listening history.
+
+Muse exemplifies multi-modality by synthesizing:
 - Audio feature extraction (spectral, harmonic, rhythmic analysis)
 - Visual emotional mapping (radar charts, timeline graphs via Nano Banana Pro)
 - Natural language context generation (Gemini 3 understanding emotional + audio data)
@@ -48,9 +53,7 @@ Yes — Muse exemplifies multi-modality by synthesizing:
 - **Therapists**: Evidence-based music recommendations for mood regulation
 - **Developers**: API for emotional music search in apps
 
-### 2. Demo (50%) — Implementation Quality
-
-**How well has the team implemented the idea? Does it work?**
+### 2. Demo — Implementation Quality
 
 Muse is a **fully functional** end-to-end application:
 
@@ -73,9 +76,7 @@ Muse is a **fully functional** end-to-end application:
 - Handles edge cases (unavailable videos, network errors)
 - Polished UI with Framer Motion animations
 
-### 3. Creativity (15%) — Innovation
-
-**Is the project's concept innovative? Is the demo unique?**
+### 3. Creativity — Innovation
 
 **Novel approach**: While music analysis tools exist, Muse uniquely:
 
@@ -92,9 +93,7 @@ Muse is a **fully functional** end-to-end application:
 - "Mood Match" system suggesting emotional states
 - AI-generated location/activity pairings (beach sunset, morning jog, late-night coding)
 
-### 4. Pitch (10%) — Presentation
-
-**How effectively does the team present the project?**
+### 4. Pitch — Presentation
 
 Muse tells a clear story:
 
