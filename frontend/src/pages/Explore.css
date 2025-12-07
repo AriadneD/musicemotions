@@ -1,0 +1,88 @@
+/* src/pages/Explore.css */
+
+.explore-page {
+  min-height: 100vh;
+  padding: 6rem 2rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.explore-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.explore-header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(135deg, #FFD93D 0%, #FF6B6B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.explore-header p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+}
+
+.explore-content {
+  position: relative;
+  z-index: 10;
+}
+
+.explore-loading,
+.explore-error,
+.explore-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 40vh;
+  text-align: center;
+}
+
+.loading-spinner.large {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  border-top-color: #FFD93D;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.explore-loading p,
+.explore-error p,
+.explore-empty p {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.empty-emoji {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.songs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .explore-page {
+    padding: 5rem 1rem 2rem;
+  }
+
+  .explore-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .songs-grid {
+    grid-template-columns: 1fr;
+  }
+}
