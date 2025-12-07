@@ -103,7 +103,7 @@ Muse tells a clear story:
 
 **The Solution**: Muse analyzes the emotional DNA of music and tells you exactly when and where to listen
 
-**The Demo**: 
+**The Demo**: https://www.loom.com/share/66b0a0a854a348f2b4ae7c85c2754942
 1. Paste any YouTube link → 
 2. See your song's emotional fingerprint → 
 3. Get AI-powered context for the perfect listening moment
